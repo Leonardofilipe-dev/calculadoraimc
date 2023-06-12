@@ -1,0 +1,38 @@
+* {box-sizing: border-box;}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.headerContainer{
+
+        width: 900px;
+        margin: 0 auto;
+        position: absolute;
+        top: 50px;
+        left: 20%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 900px;
+    margin: 100px auto;
+    justify-items: center;
+    
+    
+  }
+  
+  .container .leftSide {
+    background-color: red;
+    width: 100%;
+    margin-left: 50px;
+    
+    
+  }
+  
+  .container .rightSide {
+    background-color: greenyellow;
+    width: 100%;
+    margin-left: 50px;
+  }
